@@ -5,3 +5,4 @@ class Owner
   def all
     self.class.all
   end
+end
