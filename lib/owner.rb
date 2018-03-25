@@ -1,8 +1,8 @@
 class Owner
-  attr_accessor :all
+  attr_accessor
   @@all = []
 
-  def all
+  def self.all
     self.class.all
   end
 end
