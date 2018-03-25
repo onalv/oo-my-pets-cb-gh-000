@@ -1,8 +1,8 @@
 class Owner
-  attr_accessor
+  # attr_accessor
   @@all = []
 
   def self.all
-    self.class.all
+    @@all
   end
 end
