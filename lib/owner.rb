@@ -1,3 +1,7 @@
 class Owner
-  # code goes here
-end
+  # attr_accessor 
+  @@all = []
+
+  def all
+    self.class.all
+  end
